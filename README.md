@@ -2,6 +2,8 @@
 
 Wrap a lambda function `Func<TArg, TResult>` with n-many argument as a thread-safe object instance subscription service.
 
+[![NuGet Status](https://img.shields.io/nuget/v/GenericSubscription.svg)](https://www.nuget.org/packages/GenericSubscription/)
+
 Example:
 
 ```csharp

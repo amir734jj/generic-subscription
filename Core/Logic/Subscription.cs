@@ -1,7 +1,7 @@
 using System;
-using Core.Interfaces;
+using GenericSubscription.Interfaces;
 
-namespace Core.Logic
+namespace GenericSubscription.Logic
 {
     internal class Subscription<T> : ISubscription<T> where T: IDisposable
     {

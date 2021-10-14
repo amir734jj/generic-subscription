@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Core.Interfaces;
+using GenericSubscription.Interfaces;
 
-namespace Core.Logic
+namespace GenericSubscription.Logic
 {
     internal class SubscriptionMgmt<TArg, TResult> : ISubscriptionManagement<TArg, TResult> where TResult: IDisposable
     {

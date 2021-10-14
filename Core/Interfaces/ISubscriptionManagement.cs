@@ -1,6 +1,6 @@
 using System;
 
-namespace Core.Interfaces
+namespace GenericSubscription.Interfaces
 {
     public interface ISubscriptionManagement<in TArg, out TResult> : IDisposable where TResult: IDisposable
     {

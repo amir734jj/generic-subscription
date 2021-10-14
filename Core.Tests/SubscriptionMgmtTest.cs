@@ -1,7 +1,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Core.Interfaces;
+using GenericSubscription;
+using GenericSubscription.Interfaces;
 using Xunit;
 
 namespace Core.Tests

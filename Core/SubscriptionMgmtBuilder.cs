@@ -1,24 +1,11 @@
 using System;
-using Core.Interfaces;
-using Core.Logic;
+using GenericSubscription.Interfaces;
+using GenericSubscription.Logic;
 
-namespace Core
+namespace GenericSubscription
 {
     public static class SubscriptionMgmtBuilder
     {
-        /// <summary>
-        /// Subscription management given lambda with no argument meaning each instance is unique
-        /// </summary>
-        /// <param name="getInstance"></param>
-        /// <typeparam name="TResult"></typeparam>
-        /// <returns></returns>
-        public static ISubscriptionManagement<Guid, TResult> AsSubscriptionMgmt<TResult>(Func<Guid, TResult> getInstance) where TResult: IDisposable
-        {
-            var subscriptionMgmt = new SubscriptionMgmt<Guid, TResult>(getInstance);
-
-            return subscriptionMgmt;
-        }
-        
         /// <summary>
         /// Subscription management given lambda with one argument
         /// </summary>

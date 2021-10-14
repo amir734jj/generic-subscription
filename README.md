@@ -1,6 +1,6 @@
 # generic-subscription-management
 
-Wrap a lambda function `Func<TArg, TResult` with n-many argument as a thread-safe object instance subscription service.
+Wrap a lambda function `Func<TArg, TResult>` with n-many argument as a thread-safe object instance subscription service.
 
 Example:
 
@@ -34,4 +34,4 @@ subscriptionMgmt.Dispose();
 ```
 
 TODO:
- - make it possible to specify max number of concurrent instances with given argument
+- make it possible to specify max number of concurrent instances with given argument

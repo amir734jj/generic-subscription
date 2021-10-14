@@ -32,3 +32,6 @@ Console.WriteLine(i1.Instance == subscriptionMgmt.InstanceOf(100)) // => false
 // Dispose all running instances
 subscriptionMgmt.Dispose();
 ```
+
+TODO:
+ - make it possible to specify max number of concurrent instances with given argument
